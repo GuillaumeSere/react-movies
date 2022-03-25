@@ -18,6 +18,7 @@
       a {
         text-decoration: none;
         color: $white;
+        background: rgba(47, 47, 149, 0.555);
         border-radius: 10px;
         width: 150px;
         text-align: center;
@@ -30,14 +31,14 @@
           color: $white;
         }
         &:hover {
-          background: $black;
+          background: rgb(69, 69, 177);
         }
       }
       a.nav-active {
         background: $color-1;
 
         &:hover {
-          background: $black;
+          background: rgb(69, 69, 177);
         }
       }
     }
